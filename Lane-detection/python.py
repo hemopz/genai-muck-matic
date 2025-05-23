@@ -20,7 +20,7 @@ while success:
     success, image = vidcap.read()
     frame = cv2.resize(image, (640,480))
 
-    ## Choosing points for perspective transformation
+   
     tl = (222,387)
     bl = (70 ,472)
     tr = (400,380)
@@ -31,16 +31,15 @@ while success:
     cv2.circle(frame, tr, 5, (0,0,255), -1)
     cv2.circle(frame, br, 5, (0,0,255), -1)
 
-    ## Aplying perspective transformation
+    
     pts1 = np.float32([tl, bl, tr, br]) 
     pts2 = np.float32([[0, 0], [0, 480], [640, 0], [640, 480]]) 
     
-    # Matrix to warp the image for birdseye window
+  
     matrix = cv2.getPerspectiveTransform(pts1, pts2) 
     transformed_frame = cv2.warpPerspective(frame, matrix, (640,480))
 
-    ### Object Detection
-    # Image Thresholding
+   
     hsv_transformed_frame = cv2.cvtColor(transformed_frame, cv2.COLOR_BGR2HSV)
     
     l_h = cv2.getTrackbarPos("L - H", "Trackbars")
@@ -54,13 +53,12 @@ while success:
     upper = np.array([u_h,u_s,u_v])
     mask = cv2.inRange(hsv_transformed_frame, lower, upper)
 
-    #Histogram
     histogram = np.sum(mask[mask.shape[0]//2:, :], axis=0)
     midpoint = int(histogram.shape[0]/2)
     left_base = np.argmax(histogram[:midpoint])
     right_base = np.argmax(histogram[midpoint:]) + midpoint
 
-    #Sliding Window
+ 
     y = 472
     lx = []
     rx = []
@@ -68,7 +66,7 @@ while success:
     msk = mask.copy()
 
     while y>0:
-        ## Left threshold
+        
         img = mask[y-40:y, left_base-50:left_base+50]
         contours, _ = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
         for contour in contours:
@@ -79,7 +77,7 @@ while success:
                 lx.append(left_base-50 + cx)
                 left_base = left_base-50 + cx
         
-        ## Right threshold
+       
         img = mask[y-40:y, right_base-50:right_base+50]
         contours, _ = cv2.findContours(img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
         for contour in contours:
