@@ -1,0 +1,13 @@
+train: lane-dataset/train/images
+val: lane-dataset/valid/images
+test: lane-dataset/test/images
+
+nc: 1
+names: ['lane']
+
+roboflow:
+  workspace: muck-matic-9ug8g
+  project: muck-matic-collector-udifk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/muck-matic-9ug8g/muck-matic-collector-udifk/dataset/1
