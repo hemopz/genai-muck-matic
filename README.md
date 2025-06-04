@@ -137,7 +137,7 @@ GENAI-Muck-Matic/
 
 ## 📤 Contact
 
-* 📧 Email: \[[](hemandchindu2255@gmail.com)]
+* 📧 Email: \[ID (hemandchindu2255@gmail.com)]
 * 🔗 GitHub: [https://github.com/hemopz/genai-muck-matic](https://github.com/hemopz/genai-muck-matic)
 * 💼 LinkedIn: [hemand-sreenivasan](www.linkedin.com/in/hemand-sreenivasan)
 
