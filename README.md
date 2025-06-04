@@ -25,7 +25,7 @@
 * 🌐 **ROS2 (Planned)** for task-level coordination and control
 * ⚡ **ESP32 & ESP32-CAM Integration** (Planned for Edge Deployment)
 * ☀️ **Solar Power Ready** for sustainable operation
-* 🛠️ **Mechatronics Hardware** fully SOLIDWORKS for refrence
+* 🛠️ **Mechatronics Hardware** designed using SOLIDWORKS and for refrence
 
 ---
 
@@ -109,7 +109,7 @@ GENAI-Muck-Matic/
 * Wrote a custom **OpenCV inference script** for lane tracking
 * Helped to Design complete hardware mechanism in **SOLIDWORKS**
 * Installed, debugged, and patched environment issues
-* Tested custom videos and images fo
+* Tested the object detection model using custom images and videos to evaluate its performance in real-world poultry farm scenarios
 * Created complete **GitHub documentation** & folder structure
 
 ---
