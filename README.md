@@ -10,9 +10,9 @@
 
 ---
 
-## 📺 Imagined Output
+## 🔮 Imagined Output
 
-[![GenAI Muck-Matic](genai-muck-matic.png)]
+![GenAI Muck-Matic](genai-muck-matic.png)
 
   
 ---
