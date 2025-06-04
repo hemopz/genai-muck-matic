@@ -13,8 +13,9 @@
 ## 📺 Demo Video
 
 ▶️ [Watch GENAI Muck-Matic Demo](https://your-demo-link.com)
+[![GenAI Muck-Matic](DriveSync.jpg)]
 *Coming Soon – Will be updated with real-time performance clips!*
-
+  
 ---
 
 ## ✨ Features
