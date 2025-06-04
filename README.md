@@ -25,7 +25,7 @@
 * 🌐 **ROS2 (Planned)** for task-level coordination and control
 * ⚡ **ESP32 & ESP32-CAM Integration** (Planned for Edge Deployment)
 * ☀️ **Solar Power Ready** for sustainable operation
-* 🛠️ **Mechatronics Hardware** fully CAD-designed for field use
+* 🛠️ **Mechatronics Hardware** fully SOLIDWORKS for refrence
 
 ---
 
