@@ -107,8 +107,9 @@ GENAI-Muck-Matic/
 
 * Labeled & trained the dataset using **Roboflow + YOLOv5**
 * Wrote a custom **OpenCV inference script** for lane tracking
-* Designed complete hardware mechanism in **CAD**
-* Installed, tested, debugged, and patched environment issues
+* Helped to Design complete hardware mechanism in **SOLIDWORKS**
+* Installed, debugged, and patched environment issues
+* Tested custom videos and images fo
 * Created complete **GitHub documentation** & folder structure
 
 ---
@@ -130,24 +131,24 @@ GENAI-Muck-Matic/
 * Real-world test using ROS2 & ESP32 on robot
 * Solar charging dock for autonomous runtime
 * IoT dashboard to monitor battery & activity logs
-* Improve lane tracking with temporal smoothing
+* Imporved overall detection and path planning by training dataset of poultury farm walls 
 
 ---
 
 ## 📤 Contact
 
-* 📧 Email: \[[your-email@example.com](mailto:your-email@example.com)]
+* 📧 Email: \[[](hemandchindu2255@gmail.com)]
 * 🔗 GitHub: [https://github.com/hemopz/genai-muck-matic](https://github.com/hemopz/genai-muck-matic)
-* 💼 LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+* 💼 LinkedIn: [hemand-sreenivasan](www.linkedin.com/in/hemand-sreenivasan)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [](LICENSE).
 
 ---
 
-> ✨ Built with Mechatronics + AI passion to solve real-world waste management challenges in poultry farms. 🚜💡
+> ✨ Built with Mechatronics + IT and AI passion to solve real-world waste management challenges in poultry farms. 🚜💡
 
 
