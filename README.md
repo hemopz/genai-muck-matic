@@ -1,4 +1,4 @@
-🌿 GENAI-Muck-Matic Collector 🚜💡
+#🌿 GENAI-Muck-Matic Collector 🚜💡
 An Autonomous Smart Robot for Poultry Waste Management using AI-Powered Lane Detection and ROS2
 
 
